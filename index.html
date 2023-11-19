@@ -1,36 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body>
-    <!-- first bloc -->
-    <div class="flex w-full">
-      <!-- Div pour le texte -->
-      <div class="flex-1 p-10 bg-yellow-400">
-        <h2 class="text-xl font-bold mb-4">WE ARE A FULL SERVICE</h2>
-        <h1 class="text-4xl font-bold mb-4">CREATIVE DESIGN AGENCY</h1>
-        <p class="mb-4">
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum is that it has a more-or-less normal distribution of
-          letters.
-        </p>
-        <button class="bg-black text-white px-4 py-2">LEARN MORE</button>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Design Agency</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+  <section class="flex w-full h-auto">
+
+    <div class="w-1/2 p-40 bg-yellow-400 flex flex-col">
+      <p>WE ARE A FULL SERVICE</p>
+      <h1 class="text-6xl pt-10 font-bold">CREATIVE</h1>
+      <h1 class="text-white text-6xl pb-10 font-bold">DESIGN AGENCY</h1>
+      <p>It is a long established fact that a reader will be distracted by the readabe content of a page when looking at
+        its layout. The point of using Lorem Impsum is that it has normal.</p>
+
+      <div class="border-2 p-3 rounded-full w-fit mt-10">
+        <p class="text-white font-bold">LEARN MORE</p>
       </div>
 
-      <!-- Div pour l'image -->
-      <div class="flex-1">
-        <!-- Remplacez 'path_to_your_image' par le chemin de votre image réelle -->
-        <img
-          src="path_to_your_image"
-          alt="Creative Design"
-          class="object-cover w-full h-full"
-        />
+    </div>
+
+    <div class="w-1/2 h-full">
+      <img class="object-cover w-full h-full" src="./assets/img/image-de-bureau.png" alt="image-bureau">
+    </div>
+  </section>
+
+  <section class="flex flex-col pl-96 pr-96">
+    <div class="text-lg text-center pl-72 pr-72 mt-20">
+      <p class="text-zinc-500">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+        has been the industry's standard dummy text ever.</p>
+    </div>
+
+    <div class="flex justify-between mt-10 mb-20">
+      <div class="flex flex-col text-center border-2 w-1/4 p-4">
+        <img class="h-14 " src="./assets/img/MarkerCreatePen.svg" alt="image-marker">
+
+        <h4 class="text-xl font-bold mt-4 mb-4">UX Research</h4>
+
+        <p class="text-zinc-500">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+          has been the
+          industry's standard dummy text ever.</p>
+      </div>
+
+      <div class="flex flex-col text-center border-2 w-1/4 p-4">
+        <img class="h-14 " src="./assets/img/GlobeWorldEarth.svg" alt="image-glob">
+
+        <h4 class="text-xl font-bold mt-4 mb-4">UX Research</h4>
+
+        <p class="text-zinc-500">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+          has been the
+          industry's standard dummy text ever.</p>
+      </div>
+
+      <div class="flex flex-col text-center border-2 w-1/4 p-4">
+        <img class="h-14 " src="./assets/img/DesktopComputerMac.svg" alt="image-dekstop">
+
+        <h4 class="text-xl font-bold mt-4 mb-4">UX Research</h4>
+
+        <p class="text-zinc-500">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+          has been the
+          industry's standard dummy text ever.</p>
       </div>
     </div>
-  </body>
+
+  </section>
+
+  <section
+    class="flex flex-col pl-96 pr-96 text-center pt-20 pb-20 pl-72 pr-72 bg-zinc-300 justify-center items-center">
+
+    <h2 class="text-4xl font-bold">OUR LAST WORK</h2>
+
+    <p class="text-zinc-500 pl-64 pr-64 text-lg mt-10">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+      officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis.</p>
+
+    <div class="flex justify-between mt-20 mb-20 w-full">
+      <div class="flex flex-col text-center border-2">
+        <img src="./assets/img/ordi.png" alt="image-dekstop">
+      </div>
+
+      <div class="flex flex-col text-center border-2">
+        <img src="./assets/img/telephone.png" alt="image-mobile">
+      </div>
+
+      <div class="flex flex-col text-center border-2">
+        <img src="./assets/img/Lunette.png" alt="image-glasses">
+      </div>
+    </div>
+
+    <div class="border-4 border-zinc-700 p-3 rounded-full w-fit">
+      <p class="text-zinc-700 font-bold text-lg">SEE MORE</p>
+    </div>
+
+  </section>
+
+  <footer class="bg-yellow-400 p-10">
+
+    <div class="">
+
+      <div class="text-center mb-6 pr-96 pl-96">
+
+        <h2 class="text-4xl font-bold mb-2 mt-10">LET'S START SOMETHING NEW</h2>
+
+        <h3 class="text-4xl font-bold text-white mb-10">SAY HELLO!</h3>
+
+        <p class="text-base mt-4 pr-64 pl-64 text-zinc-600 font-bold">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum. Sed ut perspiciatis unde omnis.</p>
+
+      </div>
+
+      <form class="space-y-4 max-w-xl mx-auto mt-20 mb-10">
+
+        <input type="text" placeholder="Name"
+          class="w-full p-2 border-b-2 border-gray-300 focus:outline-none focus:border-gray-500 bg-transparent" />
+          
+        <input type="email" placeholder="Email Address"
+          class="w-full p-2 border-b-2 border-gray-300 focus:outline-none focus:border-gray-500 bg-transparent" />
+
+        <input type="text" placeholder="Company Name"
+          class="w-full p-2 border-b-2 border-gray-300 focus:outline-none focus:border-gray-500 bg-transparent" />
+
+        <textarea placeholder="Message"
+          class="w-full p-2 border-b-2 border-gray-300 focus:outline-none focus:border-gray-500 bg-transparent"></textarea>
+
+          <div class="border-2 pt-2 pb-2 pr-4 pl-4 rounded-full w-fit mt-10">
+            <button class="text-white font-bold">SEND</button>
+          </div>
+
+      </form>
+
+    </div>
+
+  </footer>
+
+
+</body>
+
 </html>
